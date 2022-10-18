@@ -1,0 +1,48 @@
+tabnine:aplicacion basada en inteligencia artificial que reproduce lo que frecuentemente usamos
+
+cont persona2 = {
+  nombre: "Maria",
+apellido: "Suarez",
+edad: 30,
+casado: false,
+hijo: {
+  nombrehijo: "Juanitooo",
+}
+
+}
+
+const { nombre, casado} = Persona2;
+
+console.log(nombre)
+console.log(casado)
+
+const {nombrehijo} = Persona2.hijo
+console.log(nombreHijo);
+
+****Ejemplo1****
+
+<script>
+        let nombre;
+        let apellido;
+        nombre = prompt("Digite nombre:");
+        apellido = prompt("Digite apellido:");
+        alert("Hola " + nombre + " " + apellido);
+    </script>
+
+****Ejemplo2****
+
+<script>
+    let pi = 3.1416; 
+    let r = 5;
+    let área = pi + (r * r);
+    alert("El área de una circunferencia es:" + área);
+   </script> 
+
+****Ejemplo3****
+<script>
+    let pi = 3.1416; 
+    let r;
+    r = prompt("Ingrese el radio de la circunferencia");
+    let área = pi + (r * r);
+    alert("El área de una circunferencia es:" + área);
+   </script> 
